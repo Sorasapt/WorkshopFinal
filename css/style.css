@@ -1,0 +1,214 @@
+.navbar-brand > img {
+  display: inline-block;
+  width: 60%; }
+
+.navbar-inverse .navbar-nav > li > a:hover {
+  color: #8beed2; }
+
+.navbar-brand {
+  height: auto;
+  float: left;
+  width: 80%; }
+
+.navbar-toggle {
+  top: 60px; }
+
+.navbar {
+  margin-bottom: 0px; }
+
+.carousel-inner > .item > img {
+  width: 100%; }
+
+.h1, h1 {
+  font-size: 36px;
+  text-align: center;
+  font-family: "Fjalla One", sans-serif; }
+
+.btn-primary {
+  color: #222222;
+  background-color: #8beed2;
+  border-color: #8beed2; }
+
+.btn-default {
+  color: #222222;
+  background-color: #8beed2;
+  border-color: #8beed2; }
+
+.modal {
+  color: #000; }
+
+btn-primary:hover {
+  color: #fff;
+  background-color: #4da089;
+  border-color: #4da089; }
+
+.btn-primary.focus, .btn-primary:focus {
+  color: #fff;
+  background-color: #4da089;
+  border-color: #4da089; }
+
+.boton-img:focus {
+  border: none; }
+
+.col-xs-12 {
+  padding: 10px; }
+
+.form-fondo {
+  background-color: #e2e1de; }
+
+.col-xs-8, .col-xs-9 {
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin: 0 auto; }
+
+body {
+  font-family: "Abel", sans-serif; }
+
+.video {
+  padding: 15px 10px; }
+
+.faqs {
+  background-color: #222222;
+  color: #fff;
+  padding: 20px 0 30px 0;
+  overflow: hidden; }
+
+.texto {
+  padding-bottom: 15px; }
+
+.footer {
+  background-color: #222222;
+  color: #fff; }
+  .footer a {
+    text-decoration: none;
+    color: #fff; }
+    .footer a:hover {
+      color: #8beed2; }
+  .footer .transparencia {
+    width: 80%;
+    margin: 0 auto; }
+    .footer .transparencia img {
+      width: 100%; }
+  .footer .redes_sociales {
+    font-size: 28px; }
+    .footer .redes_sociales:hover {
+      color: #8beed2; }
+
+.relativo {
+  position: relative; }
+  .relativo .lupita {
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; }
+    .relativo .lupita:hover {
+      opacity: 1;
+      transition: all 1s; }
+    .relativo .lupita .boton-img {
+      background-color: transparent;
+      border: 0;
+      color: #fff;
+      font-size: 60px;
+      margin: 0 auto;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+
+.row {
+  margin-right: 0px; }
+
+.container {
+  padding-right: 0px; }
+
+@media screen and (min-width: 320px) {
+  .contenedor {
+    width: 100%;
+    padding: 20px 0; } }
+@media screen and (min-width: 480px) {
+  .contenedor {
+    width: 100%; }
+
+  .navbar-brand {
+    width: 50%; }
+
+  .navbar-brand {
+    width: 50%; } }
+@media screen and (min-width: 768px) {
+  .contenedor {
+    width: 100%; }
+
+  .container {
+    width: 100%; }
+
+  .navbar-nav {
+    margin-top: 30px;
+    float: right; }
+
+  .navbar-nav > li > a {
+    font-size: 15px; }
+
+  .col-sm-3 {
+    width: 24%; }
+
+  .footer .mapa-sitio {
+    padding-top: 55px; }
+  .footer .transparencia {
+    width: 33%;
+    display: inline-block; }
+    .footer .transparencia img {
+      width: 100%; } }
+@media screen and (min-width: 1024px) {
+  .contenedor {
+    width: 1024px;
+    margin: 0 auto;
+    overflow: hidden; }
+
+  .slide {
+    width: 100%;
+    height: 500px; }
+    .slide .carousel-inner {
+      height: 500px; }
+
+  .navbar-brand {
+    width: 80%; }
+
+  .navbar-nav {
+    margin-top: 50px; }
+
+  .texto {
+    padding: 50px 0 0 40px;
+    font-size: 20px; }
+
+  .col-md-9 {
+    width: 68%;
+    margin-left: -25px; }
+
+  .col-sm-3 {
+    width: 20%;
+    padding: 0px 0 15px 42px;
+    margin-left: 30px; }
+
+  .final {
+    background-color: #222222; }
+
+  .footer .mapa-sitio {
+    padding-top: 70px; }
+  .footer .transparencia {
+    width: 28%;
+    margin-left: 10px; }
+  .footer a {
+    font-size: 20px; }
+  .footer .col-sm-5 {
+    margin-left: 70px; }
+  .footer .redes_sociales ul {
+    margin-left: 45px; }
+    .footer .redes_sociales ul li a {
+      font-size: 30px;
+      letter-spacing: 10px; } }
+
+/*# sourceMappingURL=style.css.map */

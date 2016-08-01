@@ -1,0 +1,130 @@
+@media screen and (min-width: 320px) {
+    .contenedor {
+        width: 100%;
+        padding: 20px 0;
+    }
+}
+
+@media screen and (min-width:480px) {
+    .contenedor {
+        width: 100%;
+    }
+
+    .navbar-brand {
+        width: 50%;
+    }
+
+    .navbar-brand {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .contenedor {
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+    }
+
+    .navbar-nav {
+        margin-top: 30px;
+        float: right;
+    }
+
+    .navbar-nav>li>a {
+        font-size: 15px;
+    }
+
+    .col-sm-3 {
+        width: 24%;
+    }
+
+    .footer {
+        .mapa-sitio {
+            padding-top: 55px;
+        }
+
+        .transparencia {
+            width: 33%;
+            display: inline-block;
+            img {
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .contenedor {
+        width: 1024px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+
+    .slide {
+        width: 100%;
+        height: 500px;
+        .carousel-inner {
+            height: 500px;
+        }
+    }
+
+    .navbar-brand {
+        width: 80%;
+    }
+
+    .navbar-nav {
+        margin-top: 50px;
+    }
+
+    .texto {
+        padding: 50px 0 0 40px;
+        font-size: 20px;
+    }
+
+    .col-md-9 {
+        width: 68%;
+        margin-left: -25px;
+    }
+
+    .col-sm-3 {
+        width: 20%;
+        padding: 0px 0 15px 42px;
+        margin-left: 30px;
+    }
+
+    .final {
+        background-color: #222222;
+    }
+
+    .footer {
+        .mapa-sitio {
+            padding-top: 70px;
+        }
+        .transparencia {
+            width: 28%;
+            margin-left: 10px;
+        }
+        a {
+            font-size: 20px;
+        }
+        .col-sm-5 {
+            margin-left: 70px;
+        }
+
+        .redes_sociales {
+            ul{
+                margin-left: 45px;
+                li{
+                    a {
+                        font-size: 30px;
+                        letter-spacing: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+}

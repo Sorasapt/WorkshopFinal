@@ -1,0 +1,82 @@
+body {
+    font-family: $font-texto;
+}
+
+.video {
+    padding: 15px 10px;
+}
+
+.faqs {
+    background-color: #222222;
+    color: #fff;
+    padding: 20px 0 30px 0;
+    overflow: hidden;
+}
+
+.texto {
+    padding-bottom: 15px;
+}
+
+.footer {
+    background-color: #222222;
+    color: #fff;
+    a {
+        text-decoration: none;
+        color: #fff;
+        &:hover {
+            color: $color-primero;
+        }
+    }
+
+    .transparencia {
+        width: 80%;
+        margin: 0 auto;
+        img {
+            width: 100%;
+        }
+    }
+
+    .redes_sociales {
+        font-size: 28px;
+        &:hover {
+            color: $color-primero;
+        }
+    }
+}
+
+
+.relativo {
+    position: relative;
+    .lupita {
+        position: absolute;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        &:hover {
+            opacity: 1;
+            transition: all 1s;
+        }
+        .boton-img {
+            background-color: transparent;
+            border: 0;
+            color: #fff;
+            font-size: 60px;
+            margin: 0 auto;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+
+        }
+    }
+}
+
+.row {
+    margin-right: 0px;
+}
+
+.container {
+    padding-right: 0px;
+}
